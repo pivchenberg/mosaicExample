@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pivchenberg/mosaic-blocks": "^0.5.3"
+    }
+}

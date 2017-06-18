@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "994f1c13d27f704f2000e4efde6818e9",
+    "content-hash": "7dd2a28eb4df476daf31a8af1f8d4476",
+    "packages": [
+        {
+            "name": "pivchenberg/mosaic-blocks",
+            "version": "v0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pivchenberg/MosaicBlocks.git",
+                "reference": "e347e1eb32e5171b27e0fd6134c0c905ae56348c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pivchenberg/MosaicBlocks/zipball/e347e1eb32e5171b27e0fd6134c0c905ae56348c",
+                "reference": "e347e1eb32e5171b27e0fd6134c0c905ae56348c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pivchenberg\\MosaicBlocks\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Pivchenkov",
+                    "email": "pivchenberg@gmail.com",
+                    "role": "Backend developer"
+                }
+            ],
+            "description": "Php algorithm for creating the mosaic of blocks.",
+            "homepage": "https://github.com/pivchenberg/MosaicBlocks",
+            "keywords": [
+                "create html mosaic",
+                "grouping elements",
+                "mosaic blocks"
+            ],
+            "time": "2017-04-06 09:28:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
