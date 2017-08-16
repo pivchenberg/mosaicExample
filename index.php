@@ -21,8 +21,8 @@ $mosaicElements = [
     new MosaicElement(new MosaicTypeFullHorizontalFullVertical()),
     new MosaicElement(new MosaicTypeHalfHorizontalHalfVertical()),
     new MosaicElement(new MosaicTypeQuarterHorizontalFullVertical()),
+	new MosaicElement(new MosaicTypeFullHorizontalFullVertical()),
     new MosaicElement(new MosaicTypeHalfHorizontalHalfVertical()),
-    new MosaicElement(new MosaicTypeQuarterHorizontalFullVertical()),
     new MosaicElement(new MosaicTypeQuarterHorizontalFullVertical()),
     new MosaicElement(new MosaicTypeQuarterHorizontalFullVertical()),
     new MosaicElement(new MosaicTypeQuarterHorizontalFullVertical()),
@@ -30,6 +30,7 @@ $mosaicElements = [
     new MosaicElement(new MosaicTypeHalfHorizontalFullVertical()),
     new MosaicElement(new MosaicTypeThreeQuarterHorizontalFullVertical()),
     new MosaicElement(new MosaicTypeQuarterHorizontalFullVertical()),
+	new MosaicElement(new MosaicTypeQuarterHorizontalFullVertical()),
 ];
 
 $mosaic = new Mosaic($mosaicElements);
@@ -40,8 +41,9 @@ $mosaic->prepareOutput();
         <ul style="list-style-type: none;">
             <?php
             /** @var MosaicElement $rme */
+            $i = 0;
             foreach ($mosaicElements as $rme):?>
-                <li><?php echo $rme->getId() ?>. <?php echo $rme->getMosaicType()->getShortName() ?></li>
+                <li><?php echo ++$i; ?>. <?php echo $rme->getMosaicType()->getShortName() ?></li>
             <?php endforeach; ?>
         </ul>
     </div>
